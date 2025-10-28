@@ -1,7 +1,3 @@
-import fs from "node:fs";
-import path from "node:path";
-import { createServer } from "node:http";
-
 const express = require("express");
 const mysql = require("mysql");
 const app = express();
