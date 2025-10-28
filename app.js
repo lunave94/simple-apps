@@ -1,6 +1,6 @@
 const express = require("express");
 const mysql = require("mysql");
-const app = express();
+let app = require("express");
 import path from "node:path";
 require("dotenv").config();
 
