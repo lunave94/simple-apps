@@ -1,12 +1,12 @@
 const express = require("express");
 const mysql = require("mysql");
 const app = express();
-const PORT = process.env.PORT || 3000;
 const path = require("path");
 require("dotenv").config();
 
 // Import Middleware
 const logger = require("./middleware/logger");
+app.use(logger);
 const connection = require("./middleware/db_connect");
 
 // Dashboard
