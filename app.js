@@ -1,7 +1,6 @@
 const express = require("express");
 const mysql = require("mysql");
-let app = require("express");
-app.disable("x-powered-by");
+const app = require("express");
 const path = require("path");
 require("dotenv").config();
 
